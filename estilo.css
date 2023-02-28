@@ -1,0 +1,229 @@
+* {
+
+   box-sizing: border-box;
+   
+}
+
+body {
+  background-color: #374256;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #fff;
+}
+
+.navBar {
+
+  letter-spacing: 0.1rem;
+  border: #f6a52d solid 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  height: 8%;
+  margin: 2px;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  padding: 0 3px;
+  margin: 20px;
+}
+
+.navList li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.navList a {
+  font-family: 'Sora', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.8s ease;
+  font-size: 1.5rem;
+}
+
+.navList a:hover {
+  color: #f6a52d;
+}
+
+.container {
+  display: flex;
+  height: 89%;
+}
+
+main {
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2px;
+  width: 30%;
+  height: 100%;
+  border: 1px solid #f6a52d;
+  background-color: #17233b;
+  color: #f6a52d;
+  overflow: auto;
+  text-align: center;
+}
+
+main h1 {
+  font-family: 'Alexandria', sans-serif;
+  font-size: 2.5rem;
+  color: whitesmoke;
+  margin: 5px 0 20px;
+  text-shadow: 0px 1.5px 1.5px #949595;
+  
+}
+
+main h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  color: rgb(184, 176, 176);
+  margin: 5px 0 10px;
+  text-align: center;
+  
+}
+
+main h3 {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  margin: 5px 0px;
+}
+
+main h4{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+ 
+}
+
+
+main img {
+  position: relative;
+  width: 80%;
+  height: 55%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  border-radius: 50%;
+  border: 1px solid #f6a52d;
+  box-shadow: 0 0 4px 4px #949595;
+}
+
+main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+main ul li{
+  font-size: 100%;
+}
+
+main h3 a{
+  color: #f6a52d;
+}
+
+
+section {
+
+  font-family: 'Alexandria', sans-serif;
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: 2px;
+  padding: 5%;
+  background-color: #17233b;
+  color: whitesmoke;
+  text-align: justify;
+  overflow: auto;
+  border: 1px solid #f6a52d;
+  border-bottom: 1px solid #f6a52d;
+}
+
+
+section h2 {
+  
+  font-size: 36px;
+  margin-bottom: 5%;
+  letter-spacing: 2px;
+  text-shadow: 0px 1.5px 1.5px#949595;
+
+}
+
+section ul {
+  font-family: 'Golos Text', sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: #949595 solid 1px;
+}
+
+section ul li {
+  margin: 30px;
+  border-bottom: #949595 solid 1px;
+  
+}
+
+a.mailto {
+  color: #f6a52d;
+}
+
+
+.fa-facebook {
+  color: #3b5998;
+  margin:10px;
+  background-color: white;
+  padding: 8px 12.56px;
+  border-radius: 2px;
+  box-shadow: 0 0 2px 2px #949595;
+  
+}
+
+.fa-instagram {
+  color: #e4405f;
+  margin:10px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 2px;
+  box-shadow: 0 0 2px 2px #949595;
+}
+
+.fa-linkedin {
+  
+  color: #0077b5;
+  margin:10px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 2px;
+  box-shadow: 0 0 2px 2px #949595;
+}
+
+.fa-envelope{
+  color: #0077b5;
+  margin: 10px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 2px;
+  border:  px solid #f6a52d;
+  box-shadow: 0 0 2px 2px #949595;
+
+}
+
+p{
+  margin: 30px;  
+  font-size: large;
+  
+}
+
+
+
